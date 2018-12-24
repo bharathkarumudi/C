@@ -2,6 +2,7 @@
     getprime_threads.c - main, isPrime, threadCalc, createThreads
     To calculate the prime numbers using threads.
     Update variable K to modify the thread count.
+    Authored by: Bharath Karumudi
 */
 
 #include <sys/types.h>
