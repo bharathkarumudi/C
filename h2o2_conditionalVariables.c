@@ -1,6 +1,19 @@
 /*
-Assignment: Lab 6 - Solution to form Hydrogen Peroxide (H 2 O 2 ).
-Submitted by: Bharath Karumudi
+Background:
+There are two kinds of threads, oxygen and hydrogen. In order to assemble these threads into water molecules (H 2 O) we have to make each thread wait until a complete molecule is ready to
+proceed (i.e. two hydrogen atoms and one oxygen atom are ready to bond).
+● If an oxygen thread arrives when no (or only one) hydrogen threads are present, it has to wait for two hydrogen threads.
+● If a hydrogen thread arrives at the barrier when no other threads are present, it has to wait for an oxygen thread and another hydrogen thread.
+● If any thread shows up and the other two counterparts are already waiting, then the last thread’s arrival should trigger the formation of a water molecule.
+
+Your Problem
+● Alter the given solution to form Hydrogen Peroxide (H 2 O 2 ).
+● If any thread shows up and the other three counterparts are already waiting, then the
+last thread’s arrival should trigger the formation of a hydrogen peroxide molecule.
+● The current solution is not fair in that a late hydrogen or oxygen thread can steal another
+thread’s token for progressing.
+
+Authored By: Bharath Karumudi
 
 */
 
