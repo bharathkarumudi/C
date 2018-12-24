@@ -1,8 +1,8 @@
 /*
 getprime_fork_pipe - main, isPrime
     To calculate the prime numbers using forks.
-    Update variable K to modify the thread count.
-
+    Update variable K to modify the processes count.
+    Authored by: Bharath Karumudi
 */
 
 #include <sys/types.h>
